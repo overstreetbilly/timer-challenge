@@ -1,13 +1,10 @@
-import "./App.css";
+import Player from "./components/Player";
 
 function App() {
-    const [count, setCount] = useState(0);
-
     return (
         <>
-            <div>
-                <h1>Hello World</h1>
-            </div>
+            <Player />
+            <div id='challenges'></div>
         </>
     );
 }
